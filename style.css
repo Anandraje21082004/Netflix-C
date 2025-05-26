@@ -1,0 +1,124 @@
+ * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Roboto", sans-serif;
+    }
+    body {
+      background-color: #111;
+      
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode:screen;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+    .section1{
+      background-image: url(banner3.JPG);
+      width: 100%;
+      height: 600px;
+      
+    }
+    .navbar {
+      display: flex;
+      width: 800;
+      justify-content: space-between;
+      padding: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .logo {
+      font-family: "Roboto", sans-serif;
+      margin-left: 50px;
+      font-size: 40px;
+      font-weight: bold;
+        color: rgb(229,9,20);
+         fill: currentColor;
+         display: block;
+    }
+    .nav-links a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+    .banner {
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      width: 1000;
+      flex-direction:column;
+      justify-content: center;
+      padding: 50px;
+    }
+    .banner input{
+      margin-top: 20px;
+      padding-left: 10px;
+      margin: 10;
+    font-size: 1rem;
+    border: 1px inherit;
+     font-weight: 500;
+     line-height: 3;
+     width: 400px;
+      background-color: transparent;
+       color: white;
+       left: 3rem;
+       right: 3rem;
+        border-radius: 10px;
+       top: 3rem;
+    }
+    .banner section{
+      display: inline-flex;
+    }
+    .banner button{
+      margin-top: 20px;
+      text-align: center center;
+      padding-left: 10px;
+      margin-left: 10px;
+      display: flex;
+      font-size: 1.5rem;
+   background: rgb(229, 9, 20);
+    border:rgb(229, 9, 20) ;
+    border-radius: 10px;
+     line-height: 3;
+     color: white;
+     width: 200px;
+    }
+    .banner h1 {
+      font-size: 3.5rem;
+      margin-bottom: 8px;
+      
+    }
+    .banner p {
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+      
+    }
+    .row {
+      margin-left: 4rem;
+      padding: 20px;
+      margin-top: 30px;
+      display: block;
+    }
+    .row h2 {
+      margin-bottom: 10px;
+    }
+    .row-posters {
+      display: flex;
+      overflow-x: auto;
+    }
+    .row-posters img {
+      height: 250px;
+      margin: 20px;
+      object-fit: cover;
+      margin-right: 10px;
+      border-radius: 4px;
+      transition: transform 0.2s;
+    }
+    .row-posters img:hover {
+      transform: scale(1.08);
+    }
